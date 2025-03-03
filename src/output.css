@@ -660,6 +660,10 @@ video {
   width: 400px;
 }
 
+.w-\[70\%\] {
+  width: 70%;
+}
+
 .w-\[85\%\] {
   width: 85%;
 }
@@ -668,16 +672,12 @@ video {
   width: ;
 }
 
-.w-\[75\] {
-  width: 75;
+.w-\[90\] {
+  width: 90;
 }
 
-.w-\[75\%\] {
-  width: 75%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
+.w-\[90\%\] {
+  width: 90%;
 }
 
 .shrink {
@@ -732,12 +732,6 @@ video {
 
 .gap-\[50px\] {
   gap: 50px;
-}
-
-.space-y-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
@@ -820,6 +814,11 @@ video {
   padding-bottom: 20px;
 }
 
+.py-\[30px\] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .py-\[50px\] {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -835,14 +834,8 @@ video {
   padding-bottom: 70px;
 }
 
-.py-\[\] {
-  padding-top: ;
-  padding-bottom: ;
-}
-
-.py-\[30px\] {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.pb-\[100px\] {
+  padding-bottom: 100px;
 }
 
 .pb-\[10px\] {
@@ -861,16 +854,12 @@ video {
   padding-left: 100px;
 }
 
-.pb-\[100\] {
-  padding-bottom: 100;
+.pl-\[20px\] {
+  padding-left: 20px;
 }
 
-.pb-\[100px\] {
-  padding-bottom: 100px;
-}
-
-.pt-\[\] {
-  padding-top: ;
+.pb-\[\] {
+  padding-bottom: ;
 }
 
 .text-center {
@@ -879,6 +868,10 @@ video {
 
 .text-\[12px\] {
   font-size: 12px;
+}
+
+.text-\[14px\] {
+  font-size: 14px;
 }
 
 .text-\[16px\] {
@@ -907,18 +900,6 @@ video {
 
 .text-\[80px\] {
   font-size: 80px;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[1px\] {
-  font-size: 1px;
-}
-
-.text-\[14px\] {
-  font-size: 14px;
 }
 
 .font-bold {
@@ -1011,4 +992,26 @@ video {
   --tw-scale-x: 1.03;
   --tw-scale-y: 1.03;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:flex {
+    display: flex;
+  }
+
+  .lg\:w-\[70\%\] {
+    width: 70%;
+  }
+
+  .lg\:pl-\[100px\] {
+    padding-left: 100px;
+  }
+
+  .lg\:text-\[50px\] {
+    font-size: 50px;
+  }
 }
